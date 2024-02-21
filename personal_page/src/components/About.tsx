@@ -2,7 +2,7 @@ import React from 'react';
 
 const About: React.FC = () => {
     return (
-        <section>
+        <section id="about">
             <h2>About Me</h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae

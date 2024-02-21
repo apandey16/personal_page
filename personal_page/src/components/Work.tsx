@@ -2,7 +2,9 @@ import React from 'react'
 
 function Work() {
   return (
-    <div>Work</div> 
+    <section id="workExperience">
+      <div>Work</div> 
+    </section>
   )
 }
 export default Work

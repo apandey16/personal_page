@@ -15,6 +15,7 @@ const Contact: React.FC = () => {
     };
 
     return (
+        <section id="contactMe">
         <div>
             <h2>Contact Me</h2>
             <form onSubmit={handleSubmit}>
@@ -47,6 +48,7 @@ const Contact: React.FC = () => {
                 <button type="submit">Submit</button>
             </form>
         </div>
+        </section>
     );
 };
 

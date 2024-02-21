@@ -2,7 +2,9 @@ import React from 'react'
 
 function Skills() {
   return (
-    <div>Skills</div> 
+    <section id="skills">
+      <div>Skills</div> 
+    </section>
   )
 }
 export default Skills
