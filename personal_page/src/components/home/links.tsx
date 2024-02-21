@@ -1,6 +1,10 @@
 import React from 'react'
-import {BsLinkedin} from 'react-icons/bs'
-import {BsGithub} from 'react-icons/bs'
+import {
+        BsLinkedin,
+        BsGithub
+        } from 'react-icons/bs'
+import { MdEmail } from "react-icons/md";
+
 import './stylesheet_home.css'
 
 const links = () => {
@@ -9,6 +13,7 @@ const links = () => {
     <div className="links">
         <a href="www.linkedin.com/in/anshpandey10" target="_blank" rel='noreferrer'><BsLinkedin/></a>
         <a href="https://github.com/apandey16" target="_blank" rel='noreferrer'><BsGithub/></a>
+        <a href="#contactMe" onClick={() => document.getElementById("contactMe")?.scrollIntoView({ behavior: "smooth" })}><MdEmail/></a>
     </div>
   )
 }
