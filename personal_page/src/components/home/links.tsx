@@ -11,7 +11,7 @@ const links = () => {
   return (
     
     <div className="links">
-        <a href="www.linkedin.com/in/anshpandey10" target="_blank" rel='noreferrer'><BsLinkedin/></a>
+        <a href="https://linkedin.com/in/anshpandey10" target="_blank" rel='noreferrer'><BsLinkedin/></a>
         <a href="https://github.com/apandey16" target="_blank" rel='noreferrer'><BsGithub/></a>
         <a href="#contactMe" onClick={() => document.getElementById("contactMe")?.scrollIntoView({ behavior: "smooth" })}><MdEmail/></a>
     </div>
