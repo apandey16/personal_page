@@ -48,6 +48,8 @@
   "devDependencies": {
     "@types/node": "^20.11.19",
     "@types/react-scroll": "^1.8.10",
+    "prettier": "3.3.3",
+    "react-scale-text": "^1.2.2",
     "tailwindcss": "^3.4.1"
   }
 }

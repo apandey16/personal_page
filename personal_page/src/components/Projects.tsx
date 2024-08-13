@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 function Projects() {
   return (
     <section id="myprojects">
-      <h2>Projects and Clubs</h2> 
+      <h2>Projects and Clubs</h2>
       <div>
         <h3>Projects</h3>
         <ul>
@@ -13,6 +13,6 @@ function Projects() {
         </ul>
       </div>
     </section>
-  )
+  );
 }
-export default Projects
+export default Projects;
