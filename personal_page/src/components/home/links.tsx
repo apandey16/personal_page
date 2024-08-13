@@ -18,12 +18,18 @@ const links = () => {
       <a href="https://github.com/apandey16" target="_blank" rel="noreferrer">
         <BsGithub />
       </a>
-      <a href="https://instagram.com/steelstine" target="_blank" rel="noreferrer">
+      <a
+        href="https://instagram.com/steelstine"
+        target="_blank"
+        rel="noreferrer"
+      >
         <FaInstagram />
       </a>
       <a
         href="#home/email"
-        onClick={() => window.location.href = "mailto:ansh.pandey1234@gmail.com"}
+        onClick={() =>
+          (window.location.href = "mailto:ansh.pandey1234@gmail.com")
+        }
       >
         <MdEmail />
       </a>
@@ -35,7 +41,7 @@ const links = () => {
             ?.scrollIntoView({ behavior: "smooth" })
         }
       >
-       <MdKeyboardArrowDown /> 
+        <MdKeyboardArrowDown />
       </a>
     </div>
   );
