@@ -9,7 +9,6 @@ function Home() {
       <div className="container">
         <Links />
         <img src={profilePic} alt="main pic" />
-
         <div className="textBox">
           <h1>I am Ansh Pandey.</h1>
           <h1>A Software Developer</h1>
