@@ -4,7 +4,9 @@ import "./stylesheet_about.css";
 const About: React.FC = () => {
   return (
     <section id="about">
-      <h2 className="header">About Me</h2>
+      <div className="about-header">
+        <h1>About Me</h1>
+      </div>
       <div className="text-container">
         <p className="justified-paragrphs">
           Hello! I am Ansh Pandey, a goal-orientated, dedicated, and ambitious

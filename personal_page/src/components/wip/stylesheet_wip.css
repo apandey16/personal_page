@@ -1,0 +1,23 @@
+.wip-header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: -5vw;
+}
+.wip-header h1 {
+  font-size: 3vw;
+  font-weight: 900;
+  font-family: "Aileron";
+  color: #ffffff;
+}
+.blank {
+  margin-bottom: 10vh;
+}
+
+@media (max-width: 768px) {
+  .wip-header {
+    font-size: 6vw;
+  }
+}

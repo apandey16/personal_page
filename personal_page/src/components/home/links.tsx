@@ -33,7 +33,7 @@ const links = () => {
       >
         <MdEmail />
       </a>
-      <a
+      {/* <a
         href="#contactMe"
         onClick={() =>
           document
@@ -42,7 +42,7 @@ const links = () => {
         }
       >
         <MdKeyboardArrowDown />
-      </a>
+      </a> */}
     </div>
   );
 };

@@ -24,7 +24,7 @@ const NavBar = () => {
       >
         <BiUser />
       </a>
-      <a
+      {/* <a
         href="#workExperience"
         onClick={() => setActiveNav("#workExperience")}
         className={activeNav === "#workExperience" ? "active" : ""}
@@ -44,7 +44,7 @@ const NavBar = () => {
         className={activeNav === "#contactMe" ? "active" : ""}
       >
         <BiMessageSquareDetail />
-      </a>
+      </a> */}
     </nav>
   );
 };

@@ -6,6 +6,7 @@ import Home from "./components/home/Home";
 import Navbar from "./components/nav/NavBar";
 import Projects from "./components/Projects";
 import Work from "./components/Work";
+import Wip from "./components/wip/WorkInProgress";
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Work />
+      <Wip />
+      {/* <Work />
       <Projects />
-      <Contact />
+      <Contact /> */}
     </main>
   );
 }
